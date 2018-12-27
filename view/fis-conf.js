@@ -88,7 +88,7 @@ fis.media("prod")
         parser: fis.plugin('babel-5.x')
     })
 
-    //将代码直接部署至./output下
+//将代码直接部署至./output下
     .match('*', {
         deploy: fis.plugin('local-deliver', {
             to: './output'

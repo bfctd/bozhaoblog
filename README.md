@@ -6,3 +6,8 @@
 
 新建目录 mkdir
 
+删除目录及文件 rm -R dir dirname
+
+删除文件 rm xxxx.txt
+
+解压 tar -xf xxxxxxxx.gz
